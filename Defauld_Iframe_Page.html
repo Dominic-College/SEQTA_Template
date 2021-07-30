@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Main Splash Content</title>
+    <link rel="stylesheet" href="dom-seqta.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".pdf-new").on("click", function(){
+                $(this).dispatchEvent(new MouseEvent("click", {ctrlKey: true}));
+            });
+        });
+    </script>
+</head>
+<body>
+	<section class="splash-content">
+		
+<!-- Opening Article - Beth Intro -->
+		
+		<article id="A1" class="splash-article">
+            <div>
+                <h1 class="heading">Online Academic Pathways 2021</h1>
+            </div>
+			<div class="content-left">
+				<video class="video-window" controls preload="none">
+				<source src="Videos/Beth-Gilligan_Intro.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="text-content">
+                <p id="beth">Message from Ms Beth Gilligan, Dominic College Principal</p>
+				<p>Choosing elective subjects can be a daunting process, especially when Dominic College has such a rich range of subjects to choose from.</p>
+				<p>Students should prepare carefully for choosing subjects by taking time to reflect on themselves, their interests and especially their passions and dreams.</p>
+				
+			</div>
+		</article>
+		
+<!-- Making Elective Choices -->
+		
+		<article id="A2" class="splash-article">
+            <div>
+                <h1 class="heading">Making Elective Choices</h1>
+            </div>
+			<div class="content-right">
+				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTt5VIT5rOl_gHkrD35cY_rdoQkwNlk6SfhqHMNvspUD1_rfZs4WzApN2YGGSFNyg/embed?start=false&loop=true&delayms=5000" frameborder="0" width="500" height="310" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			</div>
+			<div class="text-content splash-left">
+				<p>Students in Years 7-9, along with their carers, will begin the process of choosing their electives for 2021. Families are encouraged to use this SEQTA page to learn more about the electives on offer for next year. We are proud to be able to offer such a wide range of options. Please click on the videos, PowerPoints and links to gain more information about specific areas, pathways and classes.</p>
+			</div>
+		</article>
+		
+<!-- 2021 Subject Handbook -->
+		
+		<article id="A3" class="splash-article">
+            <div>
+                <h1 class="heading">2021 Subject Handbook</h1>
+            </div>
+			<div class="content-left">
+				<a class="pdf-new" href="Dominic_Subject_Handbook_Final2-GLS-23-002.pdf" target="_blank" type="pdf"> <!-- Local PDF -->
+				<img id="subject-hb" src="Images/Screenshot_2021-Subject-Handbook.png" alt=""></a>
+			</div>
+			<div class="text-content">
+				<p>Our on-line College Handbook provides a wealth of information to assist you in pathway planning. You will find the following information in this publication:<br>- How to choose electives <br>- Subject descriptors <br>- Electives for each year level<br>- Pre-requisites <br>- 1 or 2 year courses</p>
+                <p></p>
+                <p>Press <b>'CTRL + Click'</b> to open the Subject Handbook</p>
+			</div>
+		</article>
+		
+<!-- Current Student Leaders' Choices -->
+		
+		<article id="A4" class="splash-article">
+            <div>
+                <h1 class="heading">Current Student Leaders' Choices</h1>
+            </div>
+			<div class="content-right">
+				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSh-zBOSZLUfALTQyYmDmn0gQKcGPyEWZyVCadnbC0Zul9LK4UhUaUeCbWzovN8BQ/embed?start=false&loop=true&delayms=5000" frameborder="0" width="500" height="310" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			</div>
+			<div class="text-content splash-left">
+				<p>Each student’s choices will be unique to their interests, passions and pathways. This PowerPoint will give you an idea of some of the different elective choices our current College 2020 Leaders have made on their academic journeys.</p> 
+				<p>Please note, there have been some subject name changes over the years.</p>
+			</div>
+		</article>
+        
+
+	</section>
+</body>
+</html>
